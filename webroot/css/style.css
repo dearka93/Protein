@@ -1,0 +1,140 @@
+/**
+ * General elements
+ */
+html {background: url(../img/bg.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+      overflow-y:scroll;}
+body {
+  margin: 8px auto;
+  width: 1000px;
+  padding: 8px;
+  background: -moz-linear-gradient(top,#fff, #bcf0a5);
+  background: -webkit-linear-gradient(top,#fff, #bcf0a5);
+  border: 1px dashed #4fffcb;
+  font-family: Georgia, serif;
+  color: #5b8678;
+  overflow:auto;
+}
+
+header,footer,nav,article,section,aside,figure,figcaption,output{display:block;}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+h2:first-letter{
+    font-size: 1.3em;
+    color: #01a7ff;
+}
+
+
+/* bilder */
+figure.pic {float:left; margin: auto; 
+border:1px solid #E6E6E6;padding:4px;text-align:center; margin-right:4px;}
+
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position:absolute;
+  top: 6px;
+  left: 150px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 150px;
+  font-style: italic;
+  color: #666;
+}
+
+.sitelogo {
+    float:left;
+
+    max-width: 130px;
+
+}
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+/**
+ * Navbar
+ */
+#navbar {
+  margin-top:9em;    
+  margin-bottom: 2em;
+  
+}
+ul.nb-plain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #bcf0a5;
+}
+
+ul.nb-plain li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.nb-plain li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-plain li.selected a {
+  border-top: 1px solid #01d1ff;
+  border-bottom: 1px solid #01d1ff;
+}    
+
+ul.nb-plain a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-plain a:hover {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+}
+
+
